@@ -1,4 +1,4 @@
-package com.roytuts.email.service;
+package com.app.email.service;
 
 import org.springframework.stereotype.Service;
 

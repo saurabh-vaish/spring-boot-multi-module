@@ -1,18 +1,18 @@
-package com.roytuts.web.service.runner;
+package com.app.user.service.runner;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties("web")
-public class MyRunner implements CommandLineRunner {
+@ConfigurationProperties("user")
+public class MyRunner2 implements CommandLineRunner {
 
     private String msg;
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("From Web Service "+ msg);
+        System.out.println("From User Service "+ msg);
     }
 
     public String getMsg() {

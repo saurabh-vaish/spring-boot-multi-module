@@ -1,9 +1,9 @@
-package com.roytuts.web.service.app;
+package com.app.web.service.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.roytuts")
+@SpringBootApplication(scanBasePackages = "com.app")
 public class WebServiceApp {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.roytuts.web.service.controller;
+package com.app.web.service.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.roytuts.email.service.EmailService;
-import com.roytuts.user.service.UserService;
-import com.roytuts.user.service.model.User;
+import com.app.email.service.EmailService;
+import com.app.user.service.UserService;
+import com.app.user.service.model.User;
 
 @RestController
 public class WebRestController {

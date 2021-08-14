@@ -1,4 +1,4 @@
-package com.roytuts.user.service;
+package com.app.user.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,8 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.roytuts.email.service.EmailService;
-import com.roytuts.user.service.model.User;
+import com.app.email.service.EmailService;
+import com.app.user.service.model.User;
 
 @Service
 public class UserService {

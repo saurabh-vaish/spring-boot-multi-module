@@ -1,9 +1,9 @@
-package com.roytuts.user.service.app;
+package com.app.user.service.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.roytuts.user.service")
+@SpringBootApplication(scanBasePackages = "com.app.user.service")
 public class UserServiceApp {
 
 	public static void main(String[] args) {

@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.roytuts</groupId>
+		<groupId>com.app</groupId>
 		<artifactId>spring-boot-multi-module-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>

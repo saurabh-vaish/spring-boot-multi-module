@@ -1,9 +1,9 @@
-package com.roytuts.email.service.app;
+package com.app.email.service.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.roytuts.email.service")
+@SpringBootApplication(scanBasePackages = "com.app.email.service")
 public class EmailServiceApp {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.roytuts.user.service.model;
+package com.app.user.service.model;
 
 public class User {
 
