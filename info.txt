@@ -1,0 +1,18 @@
+1. Make a parent project as maven pom [ maven -archetype-quickstart ] , not maven project
+2. Give packaging as pom in pom after version
+
+3. Click on parent project and make a new project inside it , give dependencies required for that project and packaging as jar .
+4. repeat process for other projects inside parent project
+5. use properties file for each project
+6. On each projects main class give base package scan and mention package name.
+7. declare dependency of other child project which is needed in a child project
+
+8. after completion child projects open parent project pom.xml and give module names in module tag.
+9. these name must be same as child project name .
+
+--- for production
+10. Declare common dependencies , plugins in parent pom
+   or
+11.  declare dependencies inside dependency management tag and plugins inside plugin management tag .  [ if want these should be independent for each project ]
+12. same for application.properties declare all projects properties in main project [ not in parent, the project which main class is used for running application ] and keep remains
+as individual in each project.
